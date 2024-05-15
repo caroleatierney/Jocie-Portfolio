@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "vite build --outDir build --base=/Jocie-Portfolio/"
+    "build": "vite build --outDir build --base=/Jocie-Portfolio/src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass": "^1.76.0",
     "vite": "^5.2.11"
   },
+  "homepage": "https://github.com/caroleatierney/Jocie-Portfolio",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
