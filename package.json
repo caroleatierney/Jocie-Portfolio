@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "vite build --outDir build --base=/Jocie-Portfolio/src",
+    "build": "vite build --outDir build --base=/Jocie-Portfolio/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://github.com/caroleatierney/Jocie-Portfolio.git"
   },
   "keywords": [],
   "author": "",
