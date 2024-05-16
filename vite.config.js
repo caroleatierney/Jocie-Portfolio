@@ -6,9 +6,14 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
 
   return {
-    root: path.resolve(__dirname, "src"),
+    root: path.resolve(__dirname, "."),
     build: {
       outDir: "../dist",
+    },
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "./src/js/main.js"),
+      },
     },
     server: {
       port: 8080,
