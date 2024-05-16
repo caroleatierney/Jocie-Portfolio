@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
     },
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, "./src/js/main.js"),
+        main: path.resolve(__dirname, "./src/main.js"),
       },
     },
     server: {
