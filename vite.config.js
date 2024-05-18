@@ -8,11 +8,11 @@ export default defineConfig(({ mode }) => {
   return {
     root: path.resolve(__dirname, "."),
     build: {
-      outDir: "../Jocie-Portfolio/dist",
+      outDir: "./Jocie-Portfolio/dist",
     },
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, "./src/main.js"),
+        main: path.resolve(__dirname, "../src/main.js"),
       },
     },
     server: {
