@@ -7,6 +7,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     root: path.resolve(__dirname, "."),
+    base: "/Jocie-Portfolio/",
     build: {
       outDir: "../Jocie-Portfolio/dist",
     },
