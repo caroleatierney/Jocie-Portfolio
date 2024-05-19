@@ -28,3 +28,9 @@ Then, it will use the gh-pages package to deploy the contents of the dist folder
 ??
 vite build
 npm run deploy - no?
+
+     "homepage": "https://github.com/caroleatierney/Jocie-Portfolio",
+
+      input: {
+        main: path.resolve(__dirname, "../src/main.js"),
+      },
