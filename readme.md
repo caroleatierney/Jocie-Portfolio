@@ -39,3 +39,6 @@ npm run deplo
       outDir: "../Jocie-Portfolio/dist",
 
         main: path.resolve(__dirname, "../src/main.js"),
+
+index.html
+    <script type="module" src="./src/main.js"></script>
