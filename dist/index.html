@@ -7,19 +7,35 @@
     <base href="/Jocie-Portfolio/">
     <title>Jocelyn Tierney-About Me</title>
     <script type="module" crossorigin src="/Jocie-Portfolio/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-    <script type="module" crossorigin src="/Jocie-Portfolio/assets/main-CBy1CArU.js"></script>
-    <link rel="stylesheet" crossorigin href="/Jocie-Portfolio/assets/styles-Btnm3qnz.css">
+    <script type="module" crossorigin src="/Jocie-Portfolio/assets/main-CUg-6W6f.js"></script>
+    <link rel="stylesheet" crossorigin href="/Jocie-Portfolio/assets/styles-KT0ey6RZ.css">
   </head>
-<body class="container" style="background-color:#080a87;">
+<body class="container" style="background-color:#080a87; font-size: 1.5vw; color: #080a87;">
     <!-- Page Links -->
     <div class="container py-4" style="background-color:#b4c5e4">
         <header>
             <h1 class="text-center" style="background-color:#080a87; color:#b4c5e4">About Me</h1> 
-
             <nav class="navbar navbar-expand-lg bg-skyBlue">
                 <div class="container-fluid">
-                    <a class="navbar-brand blueLink" href="src/education.html">Education</a>
-                    <a class="navbar-brand blueLink" href="src/contact.html">Contact</a>
+                    <a class="navbar-brand blueLink d-none d-lg-block" href="src/education.html">Education</a>
+                    <a href="src/artwork.html" class="btn btn-secondary btn-sm active d-none d-lg-inline-block" role="button" aria-pressed="true">Art Portfolio</a>
+                    <a class="navbar-brand blueLink d-none d-lg-block" href="src/contact.html">Contact</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="src/education.html">EducationHB</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="src/artwork.html">Art Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="src/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
 
@@ -27,18 +43,19 @@
     </div>
 
     <!-- Bootstrap container with portfolio photo and about me information with a link to the artwork page -->
-    <div class="container">
+    <div class="container" style="font-family: 'Crimson Text', serif;">
         <div class="row">
 
-            <div class="col-4 py-2" style="background-color:#b4c5e4">
-                <img class="img-fluid p-4 border-style:solid; border-color: white" src="/Jocie-Portfolio/assets/profilePhotoJocie-Cz3kYzHR.jpeg" alt="Profile Photo">
+            <div class="col-12 col-md-4" style="background-color:#b4c5e4">
+                <img class="img-fluid p-4 mx-auto d-block border-style:solid; border-color: white" src="/Jocie-Portfolio/assets/profilePhotoJocie-Cz3kYzHR.jpeg" alt="Profile Photo">
             </div>
 
-            <div class="col-8 pt-5 py-3" style="color:#080a87; background-color:#b4c5e4">
-                I am a graduate of Emmanuel College in Boston Massachusetts with a bachelor degree in biology with a concentration in health sciences. In January 2024, I began working as a Clinical Research Coordinator in the Department of Breast Oncology at Dana Farber. I am looking forward to my future at Dana Farber, being able to further cancer research, and improve patient health outcomes! 
-
-                In my past time, I love to explore my creative side. Click  on the button below to view some of my artwork. I also freelance, so if you are interested in any signs or charcoal drawings of your pets, please contact me using the link above.<br><br>
-                    <a href="src/artwork.html" class="btn btn-secondary btn-sm active;" role="button" aria-pressed="true">Art Portfolio</a>
+            <div class="col-12 col-md-8" style="color:#080a87; background-color:#b4c5e4">
+                <div class="order-2 order-md-1 d-block align-items-center mx-auto p-4">
+                    <h4>I am a graduate of Emmanuel College in Boston Massachusetts with a bachelor degree in biology with a concentration in health sciences. In January 2024, I began working as a Clinical Research Coordinator in the Department of Breast Oncology at Dana Farber. I am looking forward to my future at Dana Farber, being able to further cancer research, and improve patient health outcomes!</h4>
+                        
+                    <h4 class="pt-3">In my past time, I love to explore my creative side. Click on the Art Portfolio button above to view some of my artwork. I also freelance, so if you are interested in any signs or charcoal drawings of your pets, please contact me using the link above.</h4>
+                </div>
             </div>
         </div>
     </div>

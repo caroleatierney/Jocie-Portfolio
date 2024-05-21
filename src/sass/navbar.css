@@ -1,0 +1,39 @@
+.navbar.bg-skyBlue {
+  background-color: #a2d2ff !important;
+}
+
+.blueLink {
+  color: blue;
+}
+
+
+@media (max-width: 991.98px) {
+    .nav-link {
+        font-size: 1.2rem;
+        padding: 0.75rem 1rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-toggler {
+    display: none; /* Hide the hamburger button */
+  }
+
+  .collapse.navbar-collapse {
+    display: none !important; /* Hide the collapsed navbar menu */
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .nav-link {
+    display: block; /* Show the navbar links on large screens */
+  }
+  
+  .navbar-toggler {
+    display: none; /* Hide the hamburger button */
+  }
+
+  .collapse.navbar-collapse {
+    display: none !important; /* Hide the collapsed navbar menu */
+  }
+}

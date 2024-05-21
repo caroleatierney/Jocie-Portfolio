@@ -1,10 +1,4 @@
 // Import all of Bootstrap's CSS 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "navbar";
 
-.navbar.bg-skyBlue {
-  background-color: #a2d2ff !important;
-}
-
-.blueLink {
-  color: blue;
-}
