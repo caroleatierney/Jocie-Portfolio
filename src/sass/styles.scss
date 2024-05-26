@@ -11,8 +11,17 @@ $display-font-sizes: (
   6: 2.5rem
 );
 
-.font_75 {
-  font-size: .75rem; /* Adjust as needed */
+.carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 5px; /* Adjust this value to move the captions up or down */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding-bottom: 10px; /* Adjust this value to add more space */
 }
 
 html {
